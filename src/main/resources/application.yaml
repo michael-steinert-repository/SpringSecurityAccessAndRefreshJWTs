@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Spring-Security-Access-and-Refresh-JWTs
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring_data_jpa
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
